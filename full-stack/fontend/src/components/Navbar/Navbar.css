@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.nav-links li a{
+  color: rgba(56, 56, 56, 0.779);
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.nav-links li a:hover{
+  color: black;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: -100px;
+}
+.search-bar form{
+  display: flex;
+  border: 1px solid grey;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.sidebar {
+  display: none;
+}
+.sidebar ul{
+  
+  margin: 5vh 10vw;
+ 
+}
+.sidebar ul li a{
+  color: black;
+  /* margin-right: 30px; */
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: start;
+ 
+}
+.sidebar ul li{
+  list-style: none;
+  text-align: start;
+margin-bottom: 20px;
+
+
+}
+.sidebar {
+  position: fixed;
+  top: 70px; /* Adjust to match the height of your navbar */
+  right: -250px;
+  width: 250px;
+  height: calc(100% - 60px); /* Adjust to account for navbar height */
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  backdrop-filter: blur(5px); /* Adjust blur amount as needed */
+  transition: right 0.3s ease-in-out; /* Add transition for slide in/out */
+  z-index: 1000;
+  display: none; /* Hide sidebar by default */
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+
+  .search-bar {
+    margin: auto;
+     
+  }
+   
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .burger-menu .line {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .sidebar {
+    display: none; 
+    position: fixed;
+    /* top: 0; */
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+    background-color: rgba(206, 205, 205, 0.283);
+    backdrop-filter: blur(10px);
+  }
+
+  .sidebar.open {
+    display: block; /* Show sidebar when open */
+  }
+
+  .burger-menu.open .line-1 {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .burger-menu.open .line-2 {
+    opacity: 0;
+  }
+
+  .burger-menu.open .line-3 {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+
+  .close-btn {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .close-btn .line {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .close-btn .line-1 {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .close-btn .line-2 {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+}
+
+ .sidebar ul li a:hover{
+  color: #666;
+  text-decoration: none;
+}
+ .nav-links ul li a:hover{
+  color: #666;
+  /* text-decoration: none; */
+}
+/* #nprogress .bar {
+  background: blue;
+} */
+.buttons button{
+  background-color: rgba(8, 106, 254, 0.854);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+}

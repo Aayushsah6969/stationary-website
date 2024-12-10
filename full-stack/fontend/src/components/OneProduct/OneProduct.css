@@ -1,0 +1,237 @@
+/* ProductSection.css */
+.text-gray-600 {
+    color: #718096;
+  }
+  
+  .body-font {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+  
+  .text-gray-900 {
+    color: #1a202c;
+  }
+  
+  .leading-relaxed {
+    line-height: 1.75;
+  }
+  
+  .border-b-2 {
+    border-bottom-width: 2px;
+  }
+  
+  .border-gray-100 {
+    border-color: #f7fafc;
+  }
+  
+  .border {
+    border-width: 1px;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .w-6 {
+    width: 1.5rem;
+  }
+  
+  .h-6 {
+    height: 1.5rem;
+  }
+  
+  .select {
+    appearance: none;
+  }
+  
+  .border-gray-300 {
+    border-color: #cbd5e0;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .pl-3 {
+    padding-left: 0.75rem;
+  }
+  
+  .pr-10 {
+    padding-right: 2.5rem;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .text-gray-600 {
+    color: #718096;
+  }
+  
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .mr-3 {
+    margin-right: 0.75rem;
+  }
+  
+  .ml-1 {
+    margin-left: 0.25rem;
+  }
+  
+  .ml-6 {
+    margin-left: 1.5rem;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .bg-blue-500 {
+    background-color: #4299e1;
+  }
+  
+  .border-0 {
+    border-width: 0;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .hover\:bg-blue-600:hover {
+    background-color: #3182ce;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .inline-flex {
+    display: inline-flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  /* OneProduct.css */
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal */
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  max-width: 500px;
+  width: 100%;
+  margin-top: 5vh;
+  position: relative;
+  z-index: 1;
+}
+.modal h2{
+  font-size: 2rem;
+}
+/* Close button */
+.modal-close {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Form */
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields */
+.modal input[type='text'] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.modal input[type='number'] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.modal input[type='email'] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button */
+.modal button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Submit button hover effect */
+.modal button[type='submit']:hover {
+  background-color: #0056b3;
+}

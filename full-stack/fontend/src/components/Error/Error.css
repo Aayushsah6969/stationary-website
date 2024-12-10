@@ -1,0 +1,15 @@
+.not-found-container {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .not-found-heading {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .not-found-text {
+    font-size: 18px;
+    color: #666;
+  }
+  

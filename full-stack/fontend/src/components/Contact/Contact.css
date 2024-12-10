@@ -1,0 +1,81 @@
+/* Contact.css */
+.text-gray-600 {
+    color: #718096;
+  }
+  
+  .body-font {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .text-gray-900 {
+    color: #1a202c;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .ml-3 {
+    margin-left: 0.75rem;
+  }
+  
+  .text-blue-500 {
+    color: #4299e1;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .leading-7 {
+    line-height: 1.75rem;
+  }
+  
+  .border-gray-300 {
+    border-color: #e2e8f0;
+  }
+  
+  .focus\:border-blue-500:focus {
+    border-color: #4299e1;
+  }
+  
+  .focus\:ring-blue-200:focus {
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+  }
+  
+  .py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  .px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
